@@ -250,13 +250,13 @@ sass:
 
 
 # title: Bitpan Software
-email: brian@bitpan.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Online home of Brian Henry: engineer, polymath, layabout, gadfly, etc.
+# email: brian@bitpan.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Online home of Brian Henry: engineer, polymath, layabout, gadfly, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://brianhenryhf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bitpan.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  brianhenryhf
+# github_username:  brianhenryhf
 
 # Build settings
 theme: chulapa-jekyll
