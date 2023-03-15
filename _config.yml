@@ -8,7 +8,7 @@ title                   : Bitpan Software   #default["repository_name"]
 # title_separator         : ' '    #default [" | "]
 subtitle                : Smart Solutions to Complex Problems    #default [your-repository-tagline]
 # description             :    #default [your-repository-tagline]
-# url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
+url                     : https://www.bitpan.com    #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 # baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 # words_per_minute        :     #default[200]
 # timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -16,8 +16,8 @@ subtitle                : Smart Solutions to Complex Problems    #default [your-
 # SEO
 # og_image                :     #default[author.avatar (see below)] or [github-avatar]
 # twitter_site            :     #Avoid @
-# author:
-#   name                  :     # Name Surname Company
+author:
+  name                  : Bitpan Software    # Name Surname Company
 #   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
 #   location              :     # New York, USA
 #   links:
@@ -94,29 +94,34 @@ fa_v4_support: #Bool Add FontAwesome 4 support
 # Navbar:
 #   "brand" options would be set on the left side of your navbar
 #   "nav" would be set on the right side. Two-level nav links available
-# navbar:
-#   style     :  classic #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
-#   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
-#   brand:
-#     title   :  # Title in navbar
-#     url     :  # default["url/baseurl"]
-#     img     :  # An small image, try 30x30px
-#   nav:
-#   - title   : # Label
-#     url     : # url
-#   - title   : # Label submenu
-#     child:
-#      - title: # Child label
-#        url  : # child url
-#      - title: # Child label
-#        url  : # child url
+navbar:
+  style     :  classic #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
+  expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
+  brand:
+    title   :  Bitpan Software # Title in navbar
+    url     :  # default["url/baseurl"]
+    img     :  android-chrome-512x512.png # An small image, try 30x30px
+  nav:
+  - title   : Who we are # Label
+    url     : "/#who-we-are" # url
+  - title   : What we do # Label
+    url     : "/#what-we-do" # url
+  - title   : Contact us # Label
+    url     : "/#contact-us" # url
+  
+  # - title   : # Label submenu
+  #   child:
+  #    - title: # Child label
+  #      url  : # child url
+  #    - title: # Child label
+  #      url  : # child url
 
 #Social links to be placed on your site footer
 footer:
-  links:
-    - label : #Label
-      icon  : # Fontawesome 5 icon
-      url   : # A link or email: https://twitter.com/jack, mail@example.com
+  # links:
+  #   - label : #Label
+  #     icon  : # Fontawesome 5 icon
+  #     url   : # A link or email: https://twitter.com/jack, mail@example.com
   copyright: # default is © <year> <name>
 
 # C. Theme Settings
@@ -127,10 +132,10 @@ googlefonts:
 # Theme and colors
 chulapa-skin:
   highlight     :  # default["default"]
-  skin         :  lymcha # Optional predefined skins
-  autothemer    :  # Bool: Use autotheming
+  # skin         :  lymcha # Optional predefined skins
+  autothemer    :  true # Bool: Use autotheming
   vars          :
-    primary     :   #default ["#007bff"] - Bootstrap blue
+    primary     :  "#081f36" #default ["#007bff"] - Bootstrap blue
 
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
@@ -248,15 +253,12 @@ sass:
 
 
 
-
 # title: Bitpan Software
 # email: brian@bitpan.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Online home of Brian Henry: engineer, polymath, layabout, gadfly, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bitpan.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-# github_username:  brianhenryhf
 
 # Build settings
 theme: chulapa-jekyll

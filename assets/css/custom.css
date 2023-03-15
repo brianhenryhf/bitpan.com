@@ -1,0 +1,12 @@
+.navbar-brand {
+  margin-top: 2px;
+}
+
+.navbar-brand > img {
+  margin-right: .5rem !important;
+  margin-top: -2px;
+}
+
+h1,h2,h3.h4 {
+  scroll-margin-top: 46px;
+}
