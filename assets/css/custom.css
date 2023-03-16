@@ -7,10 +7,24 @@
   margin-top: -2px;
 }
 
+/* fix hidden anchor point from hash link navigation */
 h1,h2,h3.h4 {
   scroll-margin-top: 46px;
 }
 
-.services-text b {
+.extra-bold {
   font-weight: 800;
+}
+
+form label {
+  display: block;
+}
+
+form label {
+  display: block;
+}
+
+form input, textarea {
+  display: block;
+  width: 100%
 }

@@ -12,5 +12,5 @@ build - this is not locally runnable in any useful way, nor uses any interesting
 
 REM: config or css file changes require a jekyll rebuild to take effect.
 
+--
 TODOs:
-- throw up a form and quick Cloudflare function (to keep with same hosting) to collect email requests?
