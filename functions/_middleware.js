@@ -8,7 +8,7 @@ export const onRequest = mailchannelsPlugin({
       to: [{ name: "Bitpan Info", email: "info@bitpan.com" }],
     },
   ],
-  from: { name: "Online Form CF Function", email: "info@bitpan.com" },
+  from: { name: "Online Bitpan.com Form", email: "info@bitpan.com" },
   respondWith: () =>
     new Response(null, {
       status: 302,
