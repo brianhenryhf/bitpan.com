@@ -12,8 +12,6 @@ export const onRequest = mailchannelsPlugin({
   respondWith: () =>
     new Response(null, {
       status: 302,
-      
-      //TODO temporarily, just to verify this is working. later we'll add a thank-you page or popup message js...
-      headers: { Location: "/" },
+      headers: { Location: "/thank-you" },
     }),
 });
