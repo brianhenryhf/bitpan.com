@@ -7,6 +7,9 @@ Locally, this can be built for developemnt by installing jekyll (via `bundle ins
 
 Deployment is via pushing master branch changes, letting Cloudflare pull code via a GitHub App, to run build/deploy steps at Cloudflare.
 
+Note that this contains a `package.json` currently to satisfy CF Functions need for dependency specification for remote
+build - this is not locally runnable in any useful way, nor uses any interesting client-side js libs.
+
 REM: config or css file changes require a jekyll rebuild to take effect.
 
 TODOs:
